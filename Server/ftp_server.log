@@ -1,0 +1,50 @@
+2025-06-12 14:05:11,046 - INFO - package: mysql.connector.plugins
+2025-06-12 14:05:11,047 - INFO - plugin_name: mysql_native_password
+2025-06-12 14:05:11,047 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLNativePasswordAuthPlugin
+2025-06-12 14:20:32,930 - INFO - package: mysql.connector.plugins
+2025-06-12 14:20:32,931 - INFO - plugin_name: mysql_native_password
+2025-06-12 14:20:32,931 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLNativePasswordAuthPlugin
+2025-06-12 14:21:47,674 - INFO - package: mysql.connector.plugins
+2025-06-12 14:21:47,675 - INFO - plugin_name: mysql_native_password
+2025-06-12 14:21:47,675 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLNativePasswordAuthPlugin
+2025-06-12 14:23:07,860 - INFO - package: mysql.connector.plugins
+2025-06-12 14:23:07,861 - INFO - plugin_name: mysql_native_password
+2025-06-12 14:23:07,861 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLNativePasswordAuthPlugin
+2025-06-12 14:30:56,704 - INFO - package: mysql.connector.plugins
+2025-06-12 14:30:56,705 - INFO - plugin_name: mysql_native_password
+2025-06-12 14:30:56,705 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLNativePasswordAuthPlugin
+2025-06-12 14:31:47,380 - INFO - User: guojiasheng - Command: list - Status: SUCCESS
+2025-06-12 14:32:03,765 - INFO - User: guojiasheng - Command: chat - Status: FAILED
+2025-06-12 14:32:49,952 - INFO - User: guojiasheng - Command: pwd - Status: SUCCESS
+2025-06-12 14:33:11,313 - INFO - User: guojiasheng - Command: mkdir test_dir - Status: SUCCESS
+2025-06-12 14:33:22,338 - INFO - User: guojiasheng - Command: cd test_dir - Status: SUCCESS
+2025-06-12 14:33:32,643 - INFO - User: guojiasheng - Command: create hello.txt - Status: SUCCESS
+2025-06-12 14:33:38,779 - INFO - User: guojiasheng - Command: list - Status: SUCCESS
+2025-06-12 14:34:18,455 - INFO - User: guojiasheng - Command: put ../Client/local.txt - Status: FAILED
+2025-06-12 14:34:18,464 - INFO - User: guojiasheng - Command: CANCEL - Status: FAILED
+2025-06-12 14:34:52,746 - INFO - User: guojiasheng - Command: pwd - Status: SUCCESS
+2025-06-12 14:35:38,093 - INFO - User: guojiasheng - Command: put ../Client/test.txt - Status: FAILED
+2025-06-12 14:35:38,099 - INFO - User: guojiasheng - Command: 22 - Status: FAILED
+2025-06-12 14:35:38,099 - ERROR - Error handling command: Incorrect padding
+2025-06-12 14:36:01,958 - INFO - User: guojiasheng - Command: cd .. - Status: FAILED
+2025-06-12 14:36:06,264 - INFO - User: guojiasheng - Command: cd.. - Status: SUCCESS
+2025-06-12 14:36:22,299 - INFO - User: guojiasheng - Command: put ../Client/test.txt - Status: FAILED
+2025-06-12 14:36:22,304 - INFO - User: guojiasheng - Command: 22 - Status: FAILED
+2025-06-12 14:36:22,305 - ERROR - Error handling command: Incorrect padding
+2025-06-12 14:37:37,697 - INFO - User: guojiasheng - Command: put test.txt - Status: SUCCESS
+2025-06-12 14:37:53,127 - INFO - User: guojiasheng - Command: list - Status: SUCCESS
+2025-06-12 14:38:00,988 - INFO - User: guojiasheng - Command: list - Status: SUCCESS
+2025-06-12 14:46:39,954 - INFO - package: mysql.connector.plugins
+2025-06-12 14:46:39,970 - INFO - plugin_name: mysql_native_password
+2025-06-12 14:46:39,971 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLNativePasswordAuthPlugin
+2025-06-12 14:47:03,861 - INFO - User: guojiasheng - Command: put test.txt - Status: SUCCESS
+2025-06-12 14:48:16,650 - INFO - User: guojiasheng - Command: get test.txt - Status: SUCCESS
+2025-06-12 14:49:07,646 - INFO - User: guojiasheng - Command: rename test.txt Tes.txt - Status: SUCCESS
+2025-06-12 14:49:12,612 - INFO - User: guojiasheng - Command: list - Status: SUCCESS
+2025-06-12 14:49:38,777 - INFO - User: guojiasheng - Command: attrib Tes.txt - Status: SUCCESS
+2025-06-12 14:50:08,504 - INFO - User: guojiasheng - Command: chat - Status: SUCCESS
+2025-06-12 14:50:24,721 - INFO - User: guojiasheng - Command: 你可以做什么？ - Status: FAILED
+2025-06-12 14:51:17,417 - INFO - User: guojiasheng - Command: chat - Status: SUCCESS
+2025-06-12 14:53:13,986 - INFO - User: guojiasheng - Command: chat - Status: SUCCESS
+2025-06-12 14:53:58,312 - INFO - User: guojiasheng - Command: add admin - Status: SUCCESS
+2025-06-12 14:54:03,817 - INFO - User: guojiasheng - Command: exit - Status: SUCCESS
